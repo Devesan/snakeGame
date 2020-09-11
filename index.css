@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#back_box{
+  background: #ccc;
+  height: 100vmin;
+  width: 100vmin;
+  display: grid;
+  grid-template-rows: repeat(21,1fr);
+  grid-template-columns: repeat(21,1fr)
+
+}
+.snake-body{
+  background: green;
+  border: .25vmin solid black
+}
+.prey{
+  background-color: yellow;
+  border: .25vmin solid black
+}
+#score_label{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900
+}
+#high_score_label{
+   position: absolute;
+  top: 2rem;
+  left: 12rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900
+}
